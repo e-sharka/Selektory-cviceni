@@ -48,4 +48,16 @@ body {
   width: 30px;
 }
 
+section:nth-child(2n) {
+  background-color: white;
+}
+
+section > img {
+  border: 3px solid lightblue;
+}
+
+div > img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
 /*----- Tvoje styly ------*/
